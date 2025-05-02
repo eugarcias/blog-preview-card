@@ -1,2 +1,97 @@
 @charset "UTF-8";
+@media screen and (max-width: 768px) {
+    section {
+        width: 90%;
+        height: auto;
+        margin: 0;
+        border-radius: 0;
+        box-shadow: none;
+    }
+}
+
+@font-face {
+    font-family: 'Figtree-Italic';
+    src: url(fonts/Figtree-Italic-VariableFont_wght.ttf);
+}
+@font-face {
+    font-family: 'Figtree';
+    src: url(fonts/Figtree-VariableFont_wght.ttf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Figtree', sans-serif;
+    
+}
+
+body {
+    background-color: #F3C623;
+    }
+    
+    section {
+        width: 380px;
+        height: 565px;
+        background-color: white;
+        border-radius: 20px;
+        border: 1px solid black;
+        box-shadow: 10px 8px 0px 0px;
+        padding: 1.4rem;
+        margin: 50px auto;
+    }
+
+    .imagem {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+    }
+
+    .imagem > img {
+        border-radius: 10px ;
+    }
+   
+    .menu > p {
+        padding: 8px 0px 8px 0px; 
+        color: #4d4d4d;
+        line-height: 1.5;
+        font-weight: 500;
+    }
+    .menu > a {
+        text-decoration: none;
+        color: black;
+        font-size: 18px;
+        font-weight: 800;
+        transition: .4s ease-in;
+    }
+    .menu > a:hover {
+        color: #F3C623;
+        font-weight: 900;
+    }
+    .bloco-amarelo {
+        background-color: #F3C623;
+        width: 120px;
+        margin: 10px 0px 10px 0px;
+        padding: 10px;
+        border-radius: 8px;
+    }
+
+    .avatar {
+        display: flex;
+        align-items: center;
+        
+    }
+    .avatar > img {
+        
+        border-radius: 60%;
+        
+    }
+
+    .avatar > h4 {
+      font-size: 16px;
+      margin-left: 16px;
+      font-weight: bolder;
+
+    }
 
